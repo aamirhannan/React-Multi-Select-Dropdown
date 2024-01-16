@@ -31,7 +31,7 @@ const UserCard = styled.main`
     }
     .username{
         padding-left: 20px;
-        font-weight: bold;
+        font-weight: bolder;
     }
     .email{
         padding-left: 30px;
