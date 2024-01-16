@@ -4,7 +4,7 @@ import Select from 'react-select'
 import User from './User'
 
   const options = [
-  { value: 'chocolate', label: 'Chocolate' },
+  { value: 'chocolate', label: 'Chocolate', Image:'' },
   { value: 'strawberry', label: 'Strawberry' },
   { value: 'vanilla', label: 'Vanilla' },
   { value: 'mango', label:'Mango'},
@@ -30,8 +30,6 @@ const SearchBar = () => {
                 borderStyle:'none'
                 }),
             }}
-            
-
         />
     </div>
     </MainContainer>
@@ -55,7 +53,6 @@ const MainContainer = styled.main`
         border-style: none;
     }
     
-
 `;
 
 
